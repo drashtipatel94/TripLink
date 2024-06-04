@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TripLink_WebApplication\\TripLink\\TripLink\\TripLink.csproj": {}
+  },
+  "projects": {
+    "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj",
+        "projectName": "BusinessEntities",
+        "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj",
+        "projectName": "BusinessInterface",
+        "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj": {
+                "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\TripLink_WebApplication\\TripLink\\TripLink\\TripLink.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TripLink_WebApplication\\TripLink\\TripLink\\TripLink.csproj",
+        "projectName": "TripLink",
+        "projectPath": "D:\\TripLink_WebApplication\\TripLink\\TripLink\\TripLink.csproj",
+        "packagesPath": "C:\\Users\\drish\\.nuget\\packages\\",
+        "outputPath": "D:\\TripLink_WebApplication\\TripLink\\TripLink\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\drish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj": {
+                "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj"
+              },
+              "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

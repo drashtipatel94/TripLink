@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BusinessEntities/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BusinessEntities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessEntities.dll": {}
+        }
+      },
+      "BusinessInterface/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BusinessEntities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessInterface.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BusinessEntities": "1.0.0",
+          "BusinessInterface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessEntities/1.0.0": {
+      "type": "project",
+      "path": "../BusinessEntities/BusinessEntities.csproj",
+      "msbuildProject": "../BusinessEntities/BusinessEntities.csproj"
+    },
+    "BusinessInterface/1.0.0": {
+      "type": "project",
+      "path": "../BusinessInterface/BusinessInterface.csproj",
+      "msbuildProject": "../BusinessInterface/BusinessInterface.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BusinessEntities >= 1.0.0",
+      "BusinessInterface >= 1.0.0",
+      "DataAccess >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\drish\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TripLink_WebApplication\\TripLink\\TripLink\\TripLink.csproj",
+      "projectName": "TripLink",
+      "projectPath": "D:\\TripLink_WebApplication\\TripLink\\TripLink\\TripLink.csproj",
+      "packagesPath": "C:\\Users\\drish\\.nuget\\packages\\",
+      "outputPath": "D:\\TripLink_WebApplication\\TripLink\\TripLink\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\drish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj": {
+              "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessEntities\\BusinessEntities.csproj"
+            },
+            "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj": {
+              "projectPath": "D:\\TripLink_WebApplication\\TripLink\\BusinessInterface\\BusinessInterface.csproj"
+            },
+            "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\TripLink_WebApplication\\TripLink\\DataAccess\\DataAccess.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

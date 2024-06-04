@@ -1,0 +1,9 @@
+D:\TripLink_WebApplication\TripLink\BusinessInterface\bin\Debug\BusinessInterface.dll
+D:\TripLink_WebApplication\TripLink\BusinessInterface\bin\Debug\BusinessInterface.pdb
+D:\TripLink_WebApplication\TripLink\BusinessInterface\bin\Debug\BusinessEntities.dll
+D:\TripLink_WebApplication\TripLink\BusinessInterface\bin\Debug\BusinessEntities.pdb
+D:\TripLink_WebApplication\TripLink\BusinessInterface\obj\Debug\BusinessInterface.csproj.AssemblyReference.cache
+D:\TripLink_WebApplication\TripLink\BusinessInterface\obj\Debug\BusinessInterface.csproj.CoreCompileInputs.cache
+D:\TripLink_WebApplication\TripLink\BusinessInterface\obj\Debug\BusinessInterface.csproj.CopyComplete
+D:\TripLink_WebApplication\TripLink\BusinessInterface\obj\Debug\BusinessInterface.dll
+D:\TripLink_WebApplication\TripLink\BusinessInterface\obj\Debug\BusinessInterface.pdb

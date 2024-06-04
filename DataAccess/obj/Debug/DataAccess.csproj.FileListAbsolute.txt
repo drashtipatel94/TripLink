@@ -1,0 +1,13 @@
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\DataAccess.dll
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\DataAccess.pdb
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\BusinessEntities.dll
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\BusinessInterface.dll
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\BusinessInterface.pdb
+D:\TripLink_WebApplication\TripLink\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\TripLink_WebApplication\TripLink\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\TripLink_WebApplication\TripLink\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\TripLink_WebApplication\TripLink\DataAccess\obj\Debug\DataAccess.dll
+D:\TripLink_WebApplication\TripLink\DataAccess\obj\Debug\DataAccess.pdb
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\TripLink_WebApplication\TripLink\DataAccess\bin\Debug\System.Configuration.ConfigurationManager.xml
